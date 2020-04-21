@@ -1,0 +1,26 @@
+/*app*/
+page {
+  height: 100%;
+  color: #666;
+  /* filter: grayscale(100%); */
+}
+view,
+swiper,
+swiper-item,
+text,
+switch,
+textarea,
+navigator,
+input,
+image {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button::after {
+  border: none;
+}
+image {
+  vertical-align: middle;
+  border: 0;
+}
